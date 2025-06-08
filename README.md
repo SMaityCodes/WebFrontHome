@@ -28,5 +28,16 @@ The frontend will be deployed by GitHub. The URL of the deployed site will be di
 We are hosting the backend server on "Render: Cloud Application Platform". How to do that?
 
 - Go to [render](https://render.com/)
-
+- Sign In using your GitHub credentials
+- Add New "Web Service"
+- Choose the "Public Git Repository" option
+- Copy-paste your GitRepo (this) URL and click 'Connect'
+- Set "Root Directory": "render-backend"
+- Set "Build Command": "npm install"
+- Set "Start Command": "npm start"
+- Select "Instance Type": "Free"
+- Click "Deploy Web Service"
+- 
+After deployment finishes, you'll see you’ll get a public API URL like:
+https://websitewithbackend.onrender.com
 
