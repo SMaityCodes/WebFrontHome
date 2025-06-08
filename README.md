@@ -1,5 +1,7 @@
 # 📦 The Organization of this repository:-
 
+```
+
 project-root/
 ├── docs/                  # Contains the fronend hosting files
 │   └── index.html
@@ -8,5 +10,5 @@ project-root/
 │   ├── package.json
 │   └── readme.md
 ├── readme.md              # This file
-
-#
+```
+---
