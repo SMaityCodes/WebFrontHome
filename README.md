@@ -32,8 +32,9 @@ After deployment finishes, you'll see you’ll get a public API URL like this:
 
 First, edit the `index.html` kept inisde the "/docs" folder:-
 
-  - Find the line: `const apiUrl = 'https://calculator-api.onrender.com/api/calculate';`
+  - Find the line: `const apiUrl = 'https://websitewithbackend.onrender.com/api/calculate';`
   - Replace the above URL with your actual backend API URL (see the previous step)
+  - Note that `/api/calculate` must be there at the end of the URL (to know why see line no. 08 in `index.js` inside the "/render-backend" folder
   - Commit the changes
 
 The frontend is hosted by GitHub. How to do that?
