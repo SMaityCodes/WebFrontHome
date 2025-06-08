@@ -14,15 +14,19 @@ project-root/
 
 
 ## 🔧 How to Host the Frontend:-
-> The frontend is hosted by GitHub. How to do that?
+The frontend is hosted by GitHub. How to do that?
+
   - In the GitHub "Repository Settings", nevigate to: 'Code and automation' → 'Pages'
   -  Select Source: "Deploy from a branch"
   - Select Branch: "main"
   - Select folder: "/docs"
   - Click Save
-    
+
+The frontend will be deployed by GitHub. The URL of the deployed site will be displayed on the top of the above settings page.
 
 ## 🔧 How to Host the Backend:-
+We are hosting the backend server on "Render: Cloud Application Platform". How to do that?
 
+- Go to [render](https://render.com/)
 
 
