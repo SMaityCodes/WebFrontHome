@@ -11,20 +11,7 @@ project-root/
 ├── readme.md              # This file
 
 ```
-
-
-## 🔧 How to Host the Frontend:-
-The frontend is hosted by GitHub. How to do that?
-
-  - In the GitHub "Repository Settings", nevigate to: 'Code and automation' → 'Pages'
-  -  Select Source: "Deploy from a branch"
-  - Select Branch: "main"
-  - Select folder: "/docs"
-  - Click Save
-
-The frontend will be deployed by GitHub. The URL of the deployed site will be displayed on the top of the above settings page.
-
-## 🔧 How to Host the Backend:-
+## 🔧 First Start the Backend Server:-
 We are hosting the backend server on "Render: Cloud Application Platform". How to do that?
 
 - Go to [render](https://render.com/)
@@ -37,7 +24,29 @@ We are hosting the backend server on "Render: Cloud Application Platform". How t
 - Set "Start Command": "npm start"
 - Select "Instance Type": "Free"
 - Click "Deploy Web Service"
-- 
-After deployment finishes, you'll see you’ll get a public API URL like:
-https://websitewithbackend.onrender.com
+  
+After deployment finishes, you'll see you’ll get a public API URL like this:
+`https://websitewithbackend.onrender.com`
+
+## 🔧 Now How to Host the Frontend:-
+
+First, edit the `index.html` kept inisde the "/docs" folder:-
+
+  - Find the line: `const apiUrl = 'https://calculator-api.onrender.com/api/calculate';`
+  - Replace the above URL with your actual backend API URL (see the previous step)
+  - Commit the changes
+
+The frontend is hosted by GitHub. How to do that?
+
+  - In the GitHub "Repository Settings", nevigate to: 'Code and automation' → 'Pages'
+  -  Select Source: "Deploy from a branch"
+  - Select Branch: "main"
+  - Select folder: "/docs"
+  - Click Save
+
+The frontend will be deployed by GitHub. The URL of the deployed site will be displayed on the top of the above settings page.
+
+
+
+
 
