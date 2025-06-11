@@ -3,11 +3,14 @@
 ```
 project-root/
 ├── docs/                  # Contains the fronend hosting files
-│   └── index.html
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+
 ├── render-backend/        # Contains the backend hosting files
-│   ├── index.js
 │   ├── package.json
-│   └── readme.md
+│   ├── package-lock.json
+│   └── server.js
 ├── readme.md              # This file
 
 ```
