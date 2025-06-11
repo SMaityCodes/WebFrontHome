@@ -44,7 +44,11 @@ This repository has been created to learn how to fist 1) Develop and test a full
   
 - Now it is deployed at your local machine - test it on the browser you opened in the above step.
 - if you want to access your webiste from another machine on the same network (intranet):-
-- host the fronend on your machine using some web-hosting application (you may use "LiveServer" using which you can deploy easily from Visual Studio)
+  - host the fronend on your machine using some web-hosting application (you may use "LiveServer" using which you can deploy easily from Visual Studio)
+  - access the site using the following url on browser from any other machine on the same network:
+ 
+    `http://172.26.23.122:5500/index.html`
+  - note that "LiveServer" hosts the web-application in port-no. 5500. For other web-hosting applications, port no. may be different
 
 
 ## Deployment Guidelines:-
