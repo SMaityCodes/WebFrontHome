@@ -18,7 +18,21 @@ project-root/
 This repository has been created to learn how to fist 1) Develop and test a full-stack website on local machine and then host it on web.
 
 ## How to test it on local machine:-
+### Prerequisite 
+- Nodejs : for server-side scripting, supporting requirement for ganache etc.
+- VSCode : editor for solidity etc.
+- LiveServer : for hosting web-server
+
+### Testing Steps
 - download the repo.
+- open the 'script.js' and change the API-URL with your machine's IP adress (or loopback address) in this line:-
+
+  `fetch("https://websitewithbackend-v2.onrender.com/calculate", {`
+- like this:-
+
+  `fetch("http://172.26.23.122:10000/calculate", {`
+    - use your IP in the above (or loopback address)
+    - note that we have replaced 'https' by 'http' . Why? Investigate by yourself.
 - open the index.html in a browser
 - go to the "render-backend" folder and run the following commands:-
   
@@ -28,11 +42,10 @@ This repository has been created to learn how to fist 1) Develop and test a full
   
     `node server.js`
   
-- now it is deployed at your local machine - test it on the browser you opened in the above step.
+- Now it is deployed at your local machine - test it on the browser you opened in the above step.
 - if you want to access your webiste from another machine on the same network (intranet):-
 - host the fronend on your machine using some web-hosting application (you may use "LiveServer" using which you can deploy easily from Visual Studio)
-- open the 'script.js' and change the API-URL with your machine's IP adress (or loopback address) in this line:-
-- `fetch("http://172.26.23.122:10000/calculate", {` \\ use your IP here
+
 
 ## Deployment Guidelines:-
 
