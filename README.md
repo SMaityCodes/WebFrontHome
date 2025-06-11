@@ -48,6 +48,7 @@ project-root/
   - access the site using the following url on browser from any other machine on the same network:
  
     `http://172.26.23.122:5500/index.html`
+    - use your IP in the above (or loopback address)
   - note that "LiveServer" hosts the web-application in port-no. 5500. For other web-hosting applications, port no. may be different
 
 
