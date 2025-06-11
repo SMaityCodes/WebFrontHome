@@ -1,3 +1,5 @@
+# This repository has been created to demonstrate how to first Develop and test a full-stack website on local machine and then host it on web.
+
 ## 📦 The Organization of this repository:-
 
 ```
@@ -14,8 +16,6 @@ project-root/
 ├── readme.md              # This file
 
 ```
-## Programmer's Guidelines:-
-This repository has been created to learn how to fist 1) Develop and test a full-stack website on local machine and then host it on web.
 
 ## How to test it on local machine:-
 ### Prerequisite 
